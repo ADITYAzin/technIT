@@ -1,0 +1,49 @@
+
+[
+    {
+        "img": "img/duniacoding.png",
+        "judul": "Dunia Coding",
+        "url": "https://duniacoding.id"
+    },
+    {
+        "img": "img/fullstack-logo.webp",
+        "judul": "Kelas FullStack",
+        "url": "https://www.kelasfullstack.id"
+    },
+    {
+        "img": "img/logo-codepolitan-originals.png",
+        "judul": "CODEPOLITAN",
+        "url": "https://www.codepolitan.com"
+    },
+    {
+        "img": "img/logo-pznexpert.png",
+        "judul": "PZN EXPERT",
+        "url": "https://pzn.codepolitan.com"
+    },
+    {
+        "img": "img/image.webp",
+        "judul": "HACKTIV8",
+        "url": "https://www.hacktiv8.com"
+    },
+    {
+        "img": "img/certificate_logo.png",
+        "judul": "dicoding",
+        "url": "https://www.dicoding.com"
+    },
+    {
+        "img": "img/logo-text.svg",
+        "judul": "buildWithAngga",
+        "url": "https://buildwithangga.com"
+    },
+    {
+        "img": "https://frontends.udemycdn.com/frontends-homepage/staticx/udemy/images/v7/logo-udemy.svg",
+        "judul": "udemy",
+        "url": "https://udemy.com"
+    },
+    {
+        "img": "https://cdn.prod.website-files.com/61af164800e38c4f53c60b4e/61af164800e38c11efc60b6d_RevoU.svg",
+        "judul": "RevoU",
+        "url": "https://revou.co"
+    }
+]
+

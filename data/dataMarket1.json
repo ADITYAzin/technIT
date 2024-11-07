@@ -1,0 +1,23 @@
+[
+    {
+      "id": "1",
+      "judul": "Robot Vacuum Cleaner",
+      "harga": 3500000,
+      "watt": 400,
+      "deskripsi": "Mesin cuci front loading dengan kapasitas 7 Kg, cocok untuk keluarga kecil hingga menengah. Dilengkapi dengan berbagai fitur canggih untuk mencuci dengan efisien dan hemat energi."
+    },
+    {
+      "id": "2",
+      "judul": "Turbo Drill",
+      "harga": 4200000,
+      "watt": 40,
+      "deskripsi": "Dengan teknologi turbo, alat ini mampu menghasilkan putaran yang lebih tinggi daripada bor listrik konvensional, memungkinkan Anda untuk menyelesaikan pekerjaan bor dengan lebih cepat dan efisien."
+    },
+    {
+      "id": "3",
+      "judul": "Gergaji Ganas",
+      "harga": 1200000,
+      "watt": 200,
+      "deskripsi": "Gergaji ganas adalah alat yang kuat dan tajam yang digunakan untuk memotong kayu dengan cepat dan efisien. Disertail 1000Nm sehingga menghasilkan daya diam ke putaran sangat cepat."
+    }
+  ]

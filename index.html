@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechnIT</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/fonts.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+    <!-- Demo styles -->
+    <style>
+    html,
+    body {
+        position: relative;
+        height: 100%;
+        scroll-behavior: smooth;
+    }
+
+    body {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 14px;
+        margin: 0;
+        padding: 0;
+        scroll-behavior: smooth;
+    }
+
+    .swiper {
+        width: 100%;
+        height: 300px;
+    }
+
+    .swiper-slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+</style>
+</head>
+<body>
+    <nav class="fixed z-50 w-full flex flex-row justify-around items-center p-6 bg-white shadow-md">
+        <div class="brand">
+            <h2 class="font-bold text-2xl"><a href="#beranda">TechniIT</a></h2>
+        </div>
+        <div class="nav-list ">
+            <ul class="flex flex-row items-center justify-around gap-4 font-medium">
+                <li><a href="#beranda">Beranda</a></li>
+                <li><a href="#tentang-kami">Tentang</a></li>
+                <li><a href="#benefit">Keuntungan</a></li>
+                <li><a href="#platform-belajar">Platform Belajar</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="on w-full h-[auto]" id="beranda">
+        <div id="content-1" class="w-full flex max-[993px]:flex-wrap items-center justify-around pt-[72px]">
+            <figure class="w-[700px] max-[993px]:w-[400px]">
+                <img src="img/1.png" class="object-cover aspect-square" alt="">
+            </figure>
+            <main class="flex flex-col gap-2 w-[500px] mr-20 max-[993px]:mx-6">
+                <div class="greeting"><h2 class="font-bold text-[#0F4079]">Hai Siswa Indonesia!</h2></div>
+                <div class="text-area"><p class="text-[30px] text-[#006aff] font-bold max-[1177px]:text-[25px] max-[479px]:text-[20px]">Siapkah Kamu Untuk Bagian Dari Indonesia Emas 2045? Saatnya Asah kemampuan digitalmu</p></div>
+                <div class="bg-blue-900 text-white w-full p-4 text-center rounded-2xl text-lg font-bold"><button>Get Started</button></div>
+            </main>
+        </div>
+    </section>
+
+
+    <section class="about-us mt-36 w-full bg-slate-100 py-28" id="about-us">
+        <h2 class="text-4xl text-center font-bold text-blue-500 mb-20 bg">Sedikit Tentang Kami</h2>
+        <section class="flex flex-wrap items-center justify-around gap-8 mx-8">
+            <main class="about-text-area w-full max-w-[450px] max-[1095px]:max-w-[550px]">
+                <p class="text-md">TechniIT sebuah platform yang didedikasikan untuk membangun wawasan teknologi anak bangsa. Kami menyediakan berbagai sumber belajar dan informasi terkini seputar ilmu teknologi, dengan tujuan memberdayakan generasi muda Indonesia untuk menjadi kontributor Indonesia Emas 2045.</p>
+            </main>
+            <main class="team w-full max-w-[550px] flex flex-col gap-4">
+                <h2 class="text-lg text-blue-800 font-bold">Tim Pengembang</h2>
+                <main class="chat-box flex flex-col gap-2 items-start">
+                    <main class="chat-box flex flex-row items-center gap-2">
+                        <figure class="team-profile w-20"><img class="rounded-full object-cover" src="img/K.png" alt=""></figure>
+                        <section class="text-chat-box flex flex-col  bg-white shadow-md hover:bg-gray-100 rounded-md p-2">
+                            <main class="header-chat-box"><h3 class="name-and-major"></h3></main>
+                            <main class="chat-text">
+                                <p>Hai sobat! kenalin aku Aditya Pratama Putra sebagai Developer dan Designer, Jurusan Jaringan di SMK Telkom Sidoarjo</p>
+                            </main>
+                        </section>
+                    </main>
+                    <main class="chat-box flex flex-row-reverse items-center gap-2">
+                        <figure class="team-profile w-20"><img class="rounded-full object-cover" src="https://media.licdn.com/dms/image/v2/C5603AQGJwJCALRrYBw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1592884592956?e=2147483647&v=beta&t=Z7O5OO1hWgL6c60_RgZOmG191GsCQDcaBcAKDEI0y6U" alt=""></figure>
+                        <section class="text-chat-box flex flex-col  bg-white shadow-md hover:bg-gray-100 rounded-md p-2">
+                            <main class="header-chat-box"><h3 class="name-and-major"></h3></main>
+                            <main class="chat-text">
+                                <p>Hai kenalin aku Aliezar Wijaya sebagai Developer, Jurusan SIJA (Sistem Informasi dan Jaringan Aplikasi) di SMK Telkom Sidoarjo</p>
+                            </main>
+                        </section>
+                    </main>
+                    <main class="chat-box flex flex-row items-center gap-2">
+                        <figure class="team-profile w-20"><img class="rounded-full object-cover" src="https://media.licdn.com/dms/image/v2/C5603AQGJwJCALRrYBw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1592884592956?e=2147483647&v=beta&t=Z7O5OO1hWgL6c60_RgZOmG191GsCQDcaBcAKDEI0y6U" alt=""></figure>
+                        <section class="text-chat-box flex flex-col  bg-white shadow-md hover:bg-gray-100 rounded-md p-2">
+                            <main class="header-chat-box"><h3 class="name-and-major"></h3></main>
+                            <main class="chat-text">
+                                <p>Hai kenalin aku Falah M.P sebagai Developer, Jurusan SIJA (Sistem Informasi dan Jaringan Aplikasi) di SMK Telkom Sidoarjo</p>
+                            </main>
+                        </section>
+                    </main>
+                </main>
+            </main>
+        </section>
+      </section>
+
+    <section class="platform-belajar w-full">
+        <h2 class="text-3xl font-bold mx-8 my-40 text-center">Rekomendasi channel YouTube keren yang bisa kamu tonton buat belajar pengembangan web secara otodidak dan gratis!</h2>
+        <!-- Swiper -->
+
+        <section class="flex items-center justify-center mx-8">
+            <figure class=" bg-white border border-blue-100  p-8"><img src="img/Boy_on_Compass_Homescreen.png.webp" class="object-cover rounded-2xl w-[500px]" alt=""></figure>
+            <div class="swiper mySwiper bg-blue-50">
+                <div class="swiper-wrapper">
+                <div class="swiper-slide"></div>
+                <div class="swiper-slide"></div>
+                <div class="swiper-slide"></div>
+                <div class="swiper-slide"></div>
+                <div class="swiper-slide"></div>
+                <div class="swiper-slide"></div>
+                <div class="swiper-slide"></div>
+                <div class="swiper-slide"></div>
+                <div class="swiper-slide"></div>
+                <div class="swiper-slide"></div>
+              
+            </div><!---->
+            <div class="swiper-pagination"></div>
+          </div>
+        </section>
+
+
+  <h2 class="my-8 mx-8 font-bold text-2xl text-blue-800">Online Course Bersertifikat</h2>
+    <section class="online-course-area grid grid-cols-4 max-[884px]:grid-cols-3 max-[670px]:grid-cols-2 max-[462px]:grid-cols-1 justify-items-center place-items-center gap-8 my-20 mx-8">
+    
+    </section>
+    </section>
+    <br><br><br><br><br>
+
+     <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      freeMode: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      breakpoints: {
+        286: {
+          slidesPerView: 1,
+          spaceBetween: 5,
+        },
+        639: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        944: {
+          slidesPerView: 3,
+          spaceBetween: 30,
+        },
+        1024: {
+          slidesPerView: 2,
+          spaceBetween: 50,
+        },
+      },
+    });
+  </script>
+
+
+
+<script src="javascript/lomba.js"></script>
+</body>
+</html>

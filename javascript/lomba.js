@@ -2,8 +2,6 @@ const replaceBox = document.querySelector('.online-course-area');
 const swiperSlides = document.querySelectorAll('.swiper-slide');
 
 
-
-
 function fetchCourseArea() {
     fetch("data/course.json")
     .then(response => response.json())
@@ -120,6 +118,16 @@ function UICardYTChannel(applies,i) {
         </div>
       </div>
     </div>`;
-}
+};
 
+
+
+
+// for hamburger
+const menuToggle = document.querySelector('.menu-toggle input');
+const nav = document.querySelector('nav ul');
+
+menuToggle.addEventListener('click', function () {
+    nav.classList.toggle('slide')
+});
 

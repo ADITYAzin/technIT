@@ -114,10 +114,10 @@
         <h2 class="text-3xl font-bold mx-8 my-40 text-center">Rekomendasi channel YouTube keren yang bisa kamu tonton buat belajar pengembangan web secara otodidak dan gratis!</h2>
         <!-- Swiper -->
 
-        <section class="flex items-center justify-center mx-8">
-            <figure class=" bg-white border border-blue-100  p-8"><img src="img/Boy_on_Compass_Homescreen.png.webp" class="object-cover rounded-2xl w-[500px]" alt=""></figure>
-            <div class="swiper mySwiper bg-blue-50">
-                <div class="swiper-wrapper">
+        <section class="flex items-center justify-center max-[1044px]:flex-wrap mx-8 max-[480px]:mx-0">
+            <figure class="flex flex-col justify-center items-stretch self-stretch bg-white border border-blue-100 max-[1044px]:w-full max-[1044px]:rounded-t-2xl p-8"><img src="img/Boy_on_Compass_Homescreen.png.webp" class="object-cover rounded-2xl w-[500px] mx-auto transform" alt=""></figure>
+            <div class="swiper mySwiper bg-slate-50 max-[1044px]:rounded-b-3xl h-[350px] max-[1044px]:h-[370px] px-6">
+                <div class="swiper-wrapper ">
                 <div class="swiper-slide"></div>
                 <div class="swiper-slide"></div>
                 <div class="swiper-slide"></div>
@@ -135,12 +135,46 @@
         </section>
 
 
-  <h2 class="my-8 mx-8 font-bold text-2xl text-blue-800">Online Course Bersertifikat</h2>
+  <h2 class="my-20 mx-8 font-bold text-2xl text-slate-950">Online Course Bersertifikat</h2>
     <section class="online-course-area grid grid-cols-4 max-[884px]:grid-cols-3 max-[670px]:grid-cols-2 max-[462px]:grid-cols-1 justify-items-center place-items-center gap-8 my-20 mx-8">
     
     </section>
     </section>
     <br><br><br><br><br>
+
+
+    <footer class="w-full flex flex-col items-center gap-10 pt-10 bg-blue-950 text-white">
+        <main class="footer-brand w-full text-center">
+            <h1 class="text-3xl font-bold">TechnIT</h1>
+        </main>
+        <main class="list-page ">
+            <ul class="grid grid-cols-4 place-items-center justify-items-center border-t border-b border-white p-10 font-bold w-full">
+                <li><a href="">Beranda</a></li>
+                <li><a href="">Tentang</a></li>
+                <li><a href="">Platform Belajar</a></li>
+                <li><a href="">Keuntungan</a></li>
+            </ul>
+        </main>
+        <main class="team-name flex flex-col items-center">
+            <main class="title font-bold"><h2>Dikembangkan oleh</h2></main>
+            <main class="list-name grid grid-cols-3 gap-4">
+                <main class="flex flex-col">
+                    <h2>Aliezzar Wijaya</h2>
+                </main>
+                <main class="flex flex-col">
+                    <h2>Aditya Pratama P</h2>
+                </main>
+                <main class="flex flex-col">
+                    <h2>Gregorius Olvans</h2>
+                </main>
+            </main>
+        </main>
+        <section class="socials grid grid-cols-3">
+        </section>
+        <section class="copyright-area bg-slate-950 w-full p-4 text-center">
+            <p>&copy; 2024 TechnIT</p>
+        </section>
+    </footer>
 
      <!-- Swiper JS -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
@@ -164,11 +198,11 @@
           slidesPerView: 2,
           spaceBetween: 20,
         },
-        944: {
-          slidesPerView: 3,
+        1060: {
+          slidesPerView: 2,
           spaceBetween: 30,
         },
-        1024: {
+        1088: {
           slidesPerView: 2,
           spaceBetween: 50,
         },

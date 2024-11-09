@@ -92,7 +92,7 @@ function UICardYTChannel(applies,i) {
         <div class="card-header w-full flex flex-row items-center justify-between gap-1">
           <figure class="card-profile w-14"><img class="img-profile object-cover rounded-full" src="${applies.img}" alt=""></figure>
           <div class="card-profile flex flex-col">
-            <h2 class="name">${applies.judul}</h2>
+            <h2 class="name font-bold">${applies.judul}</h2>
             <p class="role text-sm">${applies.role}</p>
           </div>
           <div class="drop-icon-area">

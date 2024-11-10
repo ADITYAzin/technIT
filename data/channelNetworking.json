@@ -4,7 +4,7 @@
         "img": "https://yt3.googleusercontent.com/wurzNwLeukdCjRBQdnBwDVvY4Ycp4nh69JYmV9_sy63P0o11zHdC0JW_o7UehxrsoDiLAZazvQ=s160-c-k-c0x00ffffff-no-rj",
         "judul": "NanangMrk",
         "role": "Networking Area",
-        "description": "Milik Orang Eksperimental Yang Hobi Jaringan <br> <br>Salam Seduluran :)",
+        "description": "Milik Orang Eksperimental Yang Hobi Jaringan<br>Salam Seduluran :)",
         "youtube": "https://www.youtube.com/@sandhikagalihWPU",
         "instagram": "https://www.instagram.com/nanangmrk/"
     },
@@ -12,7 +12,7 @@
         "img": "https://yt3.googleusercontent.com/ytc/AIdro_n4X0_gCw3mTqV8hxJVncfh9DT0j0LWXgocPewcxMNxMvXD=s160-c-k-c0x00ffffff-no-rj",
         "judul": "Aji Diyantoro",
         "role": "Networking Area",
-        "description": "apapun yang berkaitan dengan keseharian gue & teknologi dibagi ",
+        "description": "",
         "youtube": "https://www.youtube.com/@ajidiyantoro",
         "instagram": "https://instagram.com"
     },
@@ -52,7 +52,7 @@
         "img": "https://yt3.googleusercontent.com/a75GCiUn3d6IqI8LFV6V7n-fjlE-n7MucltgE5xKGjHMpHrAmGEv4J1Iehd8AdgWm6AQRVIwVQ=s160-c-k-c0x00ffffff-no-rj",
         "judul": "Pendakwah Teknologi",
         "role": "Networking Area",
-        "description": "Belajar Online Mulai Dari Sini. <br> Dengan Mengakses Beragam Kelas Pemrograman, Design Web serta Kelas Mobile Apps",
+        "description": "Saluran YouTube ini saya hasilkan khas untuk berkongsi ilmu dan pendapat dalam bidang teknologi. Saya amat meminati bidang teknologi dan suka berkongsi apa yang saya tahu agar bermanfaat kepada semua orang. Semoga saluran ini berguna kepada orang ramai dan menjadi salah satu sumber amalan akhirat setelah saya tiada nanti.",
         "youtube": "https://www.youtube.com/@PendakwahTeknologi",
         "instagram": "instagram.com/pendakwahteknologi"
     },
@@ -60,15 +60,23 @@
         "img": "https://yt3.googleusercontent.com/ytc/AIdro_nA5BxHL2orR9ZfiSYbmsSxzKxIJWsTs5DXjClm6XtZx_8=s160-c-k-c0x00ffffff-no-rj",
         "judul": "Walid Umar",
         "role": "Networking Area",
-        "description": "Sebuah channel yang dikelola oleh Avip Syaifulloh, membahas mengenai programming dan design.",
+        "description": "Channel yang membahas berbagai informasi terkait : IT Network System Administration | Linux Administrator | Review | Server | System Administrator | Education - Didedikasikan secara penuh untuk kepentingan umum. Semoga channel ini dapat turut membantu pemerataan perkembangan keterampilan dan pengetahuan tentang Teknologi Informasi dan Komunikasi untuk seluruh warga di seluruh Pelosok Indonesia.",
         "youtube": "https://www.youtube.com/@walidumar",
         "instagram": "https://instagram.com/walidumar01"
+    },
+    {
+        "img": "https://yt3.googleusercontent.com/ytc/AIdro_kvFshhqAjX3o70ynI3VFmmeb6q7IKrioChsFqOqvgzbw=s160-c-k-c0x00ffffff-no-rj",
+        "judul": "Practical Networking",
+        "role": "Networking Area",
+        "description": "If you’ve been in the Network Engineering career field for any small amount of time, then you’ve probably been frustrated at how difficult it was to find articles and videos that were reliable, thorough, and understandable.",
+        "youtube": "https://www.youtube.com/@PracticalNetworking",
+        "instagram": "https://instagram.com"
     },
     {
         "img": "https://yt3.googleusercontent.com/ytc/AIdro_l_oa0_q0THbM51KX4yQTPXsQm6cyoDkf9XDvzTsJQs4gfA=s160-c-k-c0x00ffffff-no-rj",
         "judul": "Andik Setyono",
         "role": "Networking Area",
-        "description": "BuildWithAngga menyediakan ratusan video tutorial belajar ui ux design, web development, react js, laravel, figma, python, data science, dan ilmu lainnya. Pelajari fundamental sekaligus membangun portfolio yang menarik untuk ",
+        "description": "Channel ini berisi tentang materi perkuliahan yang saya ampu dan juga kegiatan sosial dan aktifitas keluarga yang kami bagikan kepada semuanya dengan harapan dapat bermanfaat dan menginspirasi viewer semuanya. ",
         "youtube": "https://www.youtube.com/@andikimut",
         "instagram": "https://www.instagram.com/"
     }

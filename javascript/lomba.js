@@ -37,12 +37,8 @@ option.forEach((o, i) => {
   });
 });
 
-
-<<<<<<< HEAD
 //Fetch Data Course Area
 
-=======
->>>>>>> 2652cd642920d70f2003e2988ab2ffad6358f2de
 function fetchCourseArea() {
     fetch("data/course.json")
     .then(response => response.json())
@@ -388,8 +384,6 @@ function UICardYTChannelCyberSecurity(applies,i) {
       </div>
     </div>`;
 }
-
-<<<<<<< HEAD
 function UICardYTChannelDesign(applies,i) {
   return `
     <div class="card block bg-white p-4 w-[360px] rounded-[2.5rem] overflow-hidden h-[86px] scale-75" style="box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;">
@@ -422,7 +416,7 @@ function UICardYTChannelDesign(applies,i) {
       </div>
     </div>`;
 }
-=======
+
 
 
 // for hamburger
@@ -433,4 +427,4 @@ menuToggle.addEventListener('click', function () {
     nav.classList.toggle('slide')
 });
 
->>>>>>> 2652cd642920d70f2003e2988ab2ffad6358f2de
+

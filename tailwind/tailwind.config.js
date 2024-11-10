@@ -26,17 +26,7 @@ export default {
       },
       color: {
         '#2E4F4F': '#2E4F4F'
-      },
-      keyframes: {
-        fadeInSequence: {
-          '0%' : { opacity: '0' },
-          '50%' : { opacity: '0.5' },
-          '100%' : { opacity: '1' },
-        },
-      },
-      animation: {
-        fadeInSequence: 'fadeInSequence 2s ease-in-out',
-      },
+      }
     },
   },
   plugins: [

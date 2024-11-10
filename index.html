@@ -6,6 +6,7 @@
     <title>TechnIT</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/responsive-nav.css">
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
@@ -46,13 +47,20 @@
             <h2 class="font-bold text-2xl"><a href="#beranda">TechniIT</a></h2>
         </div>
         <div class="nav-list ">
-            <ul class="flex flex-row items-center justify-around gap-4 font-medium">
-                <li><a href="#beranda">Beranda</a></li>
-                <li><a href="#tentang-kami">Tentang</a></li>
-                <li><a href="#benefit">Keuntungan</a></li>
-                <li><a href="#platform-belajar">Platform Belajar</a></li>
+            <ul class=" items-center gap-4 font-medium">
+                <li><a href="#beranda" style=" text-align: center;">Beranda</a></li>
+                <li><a href="#tentang-kami" style=" text-align: center;">Tentang</a></li>
+                <li><a href="#benefit" style=" text-align: center;">Keuntungan</a></li>
+                <li><a href="#platform-belajar" style=" text-align: center;">Platform Belajar</a></li>
             </ul>
         </div>
+        <div class="menu-toggle">
+            <input type="checkbox">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
     </nav>
 
     <section class="on w-full h-[auto]" id="beranda">
@@ -69,7 +77,7 @@
     </section>
 
 
-    <section class="about-us mt-36 w-full bg-slate-100 py-28" id="about-us">
+    <section class="about-us mt-36 w-full bg-slate-100 py-28" id="tentang-kami">
         <h2 class="text-4xl text-center font-bold text-blue-500 mb-20 bg">Sedikit Tentang Kami</h2>
         <section class="flex flex-wrap items-center justify-around gap-8 mx-8">
             <main class="about-text-area w-full max-w-[450px] max-[1095px]:max-w-[550px]">
@@ -110,8 +118,13 @@
         </section>
       </section>
 
+<<<<<<< HEAD
     <section class="platform-belajar w-full">
         <h2 class="text-3xl font-bold mx-8 my-40 text-center text-blue-500">Rekomendasi <span class="text-blue-800">channel YouTube keren yang bisa kamu tonton secara otodidak dan gratis!</span></h2>
+=======
+    <section class="platform-belajar w-full" id="platform-belajar">
+        <h2 class="text-3xl font-bold mx-8 my-40 text-center">Rekomendasi channel YouTube keren yang bisa kamu tonton buat belajar pengembangan web secara otodidak dan gratis!</h2>
+>>>>>>> 2652cd642920d70f2003e2988ab2ffad6358f2de
         <!-- Swiper -->
 
         <section class="flex items-center justify-center max-[1044px]:flex-wrap mx-8 max-[480px]:mx-0">
